@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Word Beater</h1>
+    </header>
+    <!-- word input-->
+    <div>
+        <p>Type The Given Word Within <span id="secounds">5</span> Secounds:</p>
+        <h2 id="current-word">Hello!</h2>
+        <input id="word-input" type="text" placeholder="Start typing...." autofocus>
+        <h4 id="message"></h4>
+        <!-- time and score-->
+        <div>
+            <div>
+                <h3>Time left: <span id="Time-left">0</span></h3>
+            </div>
+            <div>
+                <h3>Score: <span id="Score">0</span></h3>
+            </div>
+        </div>
+        <div class="instruction-content">
+            <h3>Instructions:</h3>
+            <p>Type each word in the given amount of secounds to score. To play again, just type the current word. Your score will reset.</p>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
